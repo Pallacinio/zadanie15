@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #container
+        {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        #logo
+        {
+            background-color: aqua;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        #nav
+        {
+            float: left;
+            background-color: lightgrey;
+            width: 240px;
+            min-height: 620px;
+            padding:10px;
+        }
+        #content
+        {
+            float: left;
+            text-align: center;
+            padding: 10px;
+            width: 600px;
+            
+        }
+        #tilelink
+        {
+            color: black;
+            text-decoration: none;
+        }
+        #wyslij
+        {
+            width: 20%;
+            background-color: goldenrod;
+            color: hotpink;
+            border: goldenrod;
+            padding: 30px;
+            border-radius: 10px;
+            margin-left:210px;
+        }
+        .btn {
+                border: none;
+                color: white;
+                padding: 14px 28px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .submit {background-color: #4CAF50;} /* Green */
+            .submit:hover {background-color: #46a049;}
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div id="logo">
+            <h1>Przykładowa strona internetowa</h1>
+        </div>
+        <div id="nav">
+        <a href="index.html" id="tilelink">About us <br/> </a>
+        <a href="Skills.html"id="tilelink"> Skills <br/> </a>
+        <a href="Portfolio.html" id="tilelink">Portfolio <br/> </a>
+        <a href="Contact.html" id="tilelink">Contact <br/> </a>
+        </div>
+        <div id="content">
+            <h2>Bartosz Palacz</h2>
+            <address>
+                +48664272760
+                palaczbartosz@gmail.com
+            </address>
+            <div>
+                    <form action="/action_page.php">
+                        Imię:<br>
+                        <input type="text" name="firstname" value="Imię">
+                        
+                        <br>
+                        Temat:<br>
+                        <input type="text" name="lastname" value="Temat">
+                        
+                        </br>
+                        Wiadomość:<br>
+                        <input type="text" name="lastname" value="Wiadomość">
+                        
+                        </br>
+                        <div id="wyslij" colspan="2"><input type="submit" value="Wyślij">    
+                        
+                        </div>
+                        <button class="btn submit">Wyślij 2</button>
+                      </form> 
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
